@@ -21,7 +21,7 @@ function Sidebar() {
             <div className="top">
                 <div className="brand">
                     <FaTaxi />
-                    <span>MY TAXI</span>
+                    <span>MY ADMIN</span>
                 </div>
                 <div className="toggle"></div>
                 <div className="links">
