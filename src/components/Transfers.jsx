@@ -33,9 +33,9 @@ function Transfers() {
         <h2>Your Transfers</h2>
       </div>
       <div className="transactions">
-        {transactions.map((transaction) => {
+        {transactions.map((transaction, index) => {
           return (
-            <div className="transaction">
+            <div className="transaction" key={index}>
               <div className="transaction_titl">
                 <div className="transaction_title_image">
                   <img src={transaction.image} alt="transaction image" />
